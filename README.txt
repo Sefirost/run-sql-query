@@ -50,3 +50,8 @@ Unlike other similar plugins it uses the driver provided by the MySQLi extension
 
 = 1.0 =
 * Initial version
+
+== Upgrade Notice ==
+
+= 1.0 =
+Initial version
