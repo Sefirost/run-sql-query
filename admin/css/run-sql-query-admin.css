@@ -1,0 +1,26 @@
+#query {
+  width:100%;
+  font-family:Consolas,Monaco,monospace;
+}
+#results_detail table {
+	border-collapse:collapse;
+  margin: 4px auto;
+}
+
+#results_detail table thead {
+  background: #333; 
+  color: white;
+}
+
+#results_detail table th,
+#results_detail table td {
+	border: 1px solid black;
+	padding: 4px;
+}
+
+
+@media screen and (max-width: 782px) {
+  body { 
+        overflow-x: visible; 
+  }
+}
