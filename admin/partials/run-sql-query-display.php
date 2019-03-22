@@ -8,6 +8,16 @@
  * @package    Run_SQL_Query
  * @subpackage Run_SQL_Query/admin/partials
  */
+
+function endsWith($haystack, $needle)
+{
+    $length = strlen($needle);
+    if ($length == 0) {
+        return true;
+    }
+
+    return (substr($haystack, -$length) === $needle);
+}
 ?>
 
 <div class="wrap">
@@ -16,11 +26,12 @@
 	<p>
 	<label>Table: </label>
 	<?php
-		$output = '<select name="table" id="table"><option></option>';
+		// $output = '<select name="table" id="table"><option></option>';
 		foreach ( $this->tables as $table ) {
-			$output .= "<option value='".esc_attr( $table )."'>".esc_html( $table )."</option>";
+			if (endsWith($str, 'participants_database'))
+			$output .= "<input readonly id='table' name='table' value='".esc_attr( $table )."'>".esc_html( $table )."</input>";
 		}
-		$output .= "</select>";
+		// $output .= "</select>";
 		print $output;
 	?>
 	</p>
