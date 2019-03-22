@@ -46,6 +46,9 @@ Unlike other similar plugins it uses the driver provided by the MySQLi extension
 
 == Changelog ==
 
+= 1.0.4 =
+* Remove unnecessary files, fix issue with table
+
 = 1.0.2 =
 * Remove unnecessary files
 
