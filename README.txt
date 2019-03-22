@@ -46,10 +46,16 @@ Unlike other similar plugins it uses the driver provided by the MySQLi extension
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Testing updates
+
+= 1.0.0 =
 * Initial version
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Testing the ability to update
 
 = 1.0 =
 Initial version
