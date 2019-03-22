@@ -28,7 +28,7 @@ function endsWith($haystack, $needle)
 	<?php
 		// $output = '<select name="table" id="table"><option></option>';
 		foreach ( $this->tables as $table ) {
-			if (endsWith($str, 'participants_database'))
+			if (endsWith($table, 'participants_database'))
 			$output .= "<input readonly id='table' name='table' value='".esc_attr( $table )."'>".esc_html( $table )."</input>";
 		}
 		// $output .= "</select>";

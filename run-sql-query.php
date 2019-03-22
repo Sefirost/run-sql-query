@@ -4,7 +4,7 @@
  * Plugin Name:       Run SQL Query
  * Plugin URI:        https://github.com/alecdewitz/run-sql-query
  * Description:       Run SQL queries on your WordPress database, to operate use the plugin page under Tools &gt; <a href="tools.php?page=run-sql-query">Run SQL Query</a> to operate.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            Alec Dewitz
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
