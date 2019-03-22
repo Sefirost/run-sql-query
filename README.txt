@@ -1,5 +1,4 @@
 === Run SQL Query ===
-~Current Version:1.0.1~
 Contributors: sefirost
 Donate link: https://github.com/Sefirost/run-sql-query
 Tags: database, query, sql, manager, admin, DBA, mysql, phpMyAdmin
